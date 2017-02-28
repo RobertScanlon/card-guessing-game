@@ -1,0 +1,21 @@
+div {
+  text-align: center;
+}
+
+#cardDiv {
+  text-align: center;
+  margin: 0 auto;
+  height: 350px;
+  width: 250px;
+}
+table{
+  margin: 0 auto;
+}
+td {
+  width: 150px;
+  height: 25px;
+  text-align: right;
+}
+.faceCard {
+  display: none;
+}
