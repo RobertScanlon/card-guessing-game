@@ -47,196 +47,207 @@
     <p>
       <input type="button" id="put" value="Add To Pile" />
     </p>
+    <p>
+      Pile Size
+    </p>
+    <p id="pileSize">
+    </p>
+  </div>
+  <div id="cardInputField">
+    <p>
+      <table>
+        Choose the cards which were added to the pile.
+        <tr>
+          <td>
+            2 Spades <input type="checkbox" id="2S" />
+          </td>
+          <td>
+            2 Diamonds <input type="checkbox" id="2D" />
+          </td>
+          <td>
+            2 Clubs <input type="checkbox" id="2C" />
+          </td>
+          <td>
+            2 Hearts <input type="checkbox" id="2H" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            3 Spades <input type="checkbox" id="3S" />
+          </td>
+          <td>
+            3 Diamonds <input type="checkbox" id="3D" />
+          </td>
+          <td>
+            3 Clubs <input type="checkbox" id="3C" />
+          </td>
+          <td>
+            3 Hearts <input type="checkbox" id="3H" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            4 Spades <input type="checkbox" id="4S" />
+          </td>
+          <td>
+            4 Diamonds <input type="checkbox" id="4D" />
+          </td>
+          <td>
+            4 Clubs <input type="checkbox" id="4C" />
+          </td>
+          <td>
+            4 Hearts <input type="checkbox" id="4H" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            5 Spades <input type="checkbox" id="5S" />
+          </td>
+          <td>
+            5 Diamonds <input type="checkbox" id="5D" />
+          </td>
+          <td>
+            5 Clubs <input type="checkbox" id="5C" />
+          </td>
+          <td>
+            5 Hearts <input type="checkbox" id="5H" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            6 Spades <input type="checkbox" id="6S" />
+          </td>
+          <td>
+            6 Diamonds <input type="checkbox" id="6D" />
+          </td>
+          <td>
+            6 Clubs <input type="checkbox" id="6C" />
+          </td>
+          <td>
+            6 Hearts <input type="checkbox" id="6H" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            7 Spades <input type="checkbox" id="7S" />
+          </td>
+          <td>
+            7 Diamonds <input type="checkbox" id="7D" />
+          </td>
+          <td>
+            7 Clubs <input type="checkbox" id="7C" />
+          </td>
+          <td>
+            7 Hearts <input type="checkbox" id="7H" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            8 Spades <input type="checkbox" id="8S" />
+          </td>
+          <td>
+            8 Diamonds <input type="checkbox" id="8D" />
+          </td>
+          <td>
+            8 Clubs <input type="checkbox" id="8C" />
+          </td>
+          <td>
+            8 Hearts <input type="checkbox" id="8H" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            9 Spades <input type="checkbox" id="9S" />
+          </td>
+          <td>
+            9 Diamonds <input type="checkbox" id="9D" />
+          </td>
+          <td>
+            9 Clubs <input type="checkbox" id="9C" />
+          </td>
+          <td>
+            9 Hearts <input type="checkbox" id="9H" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            10 Spades <input type="checkbox" id="10S" />
+          </td>
+          <td>
+            10 Diamonds <input type="checkbox" id="10D" />
+          </td>
+          <td>
+            10 Clubs <input type="checkbox" id="10C" />
+          </td>
+          <td>
+            10 Hearts <input type="checkbox" id="10H" />
+          </td>
+        </tr>
+        <tr class="faceCard">
+          <td>
+            Jack Spades <input type="checkbox" id="JS" />
+          </td>
+          <td>
+            Jack Diamonds <input type="checkbox" id="JD" />
+          </td>
+          <td>
+            Jack Clubs <input type="checkbox" id="JC" />
+          </td>
+          <td>
+            Jack Hearts <input type="checkbox" id="JH" />
+          </td>
+        </tr>
+        <tr class="faceCard">
+          <td>
+            Queen Spades <input type="checkbox" id="QS" />
+          </td>
+          <td>
+            Queen Diamonds <input type="checkbox" id="QD" />
+          </td>
+          <td>
+            Queen Clubs <input type="checkbox" id="QC" />
+          </td>
+          <td>
+            Queen Hearts <input type="checkbox" id="QH" />
+          </td>
+        </tr>
+        <tr class="faceCard">
+          <td>
+            King Spades <input type="checkbox" id="KS" />
+          </td>
+          <td>
+            King Diamonds <input type="checkbox" id="KD" />
+          </td>
+          <td>
+            King Clubs <input type="checkbox" id="KC" />
+          </td>
+          <td>
+            King Hearts <input type="checkbox" id="KH" />
+          </td>
+        </tr>
+        <tr class="faceCard">
+          <td>
+            Ace Spades <input type="checkbox" id="AS" />
+          </td>
+          <td>
+            Ace Diamonds <input type="checkbox" id="AD" />
+          </td>
+          <td>
+            Ace Clubs <input type="checkbox" id="AC" />
+          </td>
+          <td>
+            Ace Hearts <input type="checkbox" id="AH" />
+          </td>
+        </tr>
+      </table>
+    </p>
+    <p>
+      <input type="button" id="guessButton" value="Submit Your Guess" />
+    </p>
   </div>
   <div>
-    <table>
-      Choose the cards which were added to the pile.
-      <tr>
-        <td>
-          2 Spades <input type="checkbox" id="2S" />
-        </td>
-        <td>
-          2 Diamonds <input type="checkbox" id="2D" />
-        </td>
-        <td>
-          2 Clubs <input type="checkbox" id="2C" />
-        </td>
-        <td>
-          2 Hearts <input type="checkbox" id="2H" />
-        </td>
-      </tr>
-      <tr>
-        <td>
-          3 Spades <input type="checkbox" id="3S" />
-        </td>
-        <td>
-          3 Diamonds <input type="checkbox" id="3D" />
-        </td>
-        <td>
-          3 Clubs <input type="checkbox" id="3C" />
-        </td>
-        <td>
-          3 Hearts <input type="checkbox" id="3H" />
-        </td>
-      </tr>
-      <tr>
-        <td>
-          4 Spades <input type="checkbox" id="4S" />
-        </td>
-        <td>
-          4 Diamonds <input type="checkbox" id="4D" />
-        </td>
-        <td>
-          4 Clubs <input type="checkbox" id="4C" />
-        </td>
-        <td>
-          4 Hearts <input type="checkbox" id="4H" />
-        </td>
-      </tr>
-      <tr>
-        <td>
-          5 Spades <input type="checkbox" id="5S" />
-        </td>
-        <td>
-          5 Diamonds <input type="checkbox" id="5D" />
-        </td>
-        <td>
-          5 Clubs <input type="checkbox" id="5C" />
-        </td>
-        <td>
-          5 Hearts <input type="checkbox" id="5H" />
-        </td>
-      </tr>
-      <tr>
-        <td>
-          6 Spades <input type="checkbox" id="6S" />
-        </td>
-        <td>
-          6 Diamonds <input type="checkbox" id="6D" />
-        </td>
-        <td>
-          6 Clubs <input type="checkbox" id="6C" />
-        </td>
-        <td>
-          6 Hearts <input type="checkbox" id="6H" />
-        </td>
-      </tr>
-      <tr>
-        <td>
-          7 Spades <input type="checkbox" id="7S" />
-        </td>
-        <td>
-          7 Diamonds <input type="checkbox" id="7D" />
-        </td>
-        <td>
-          7 Clubs <input type="checkbox" id="7C" />
-        </td>
-        <td>
-          7 Hearts <input type="checkbox" id="7H" />
-        </td>
-      </tr>
-      <tr>
-        <td>
-          8 Spades <input type="checkbox" id="8S" />
-        </td>
-        <td>
-          8 Diamonds <input type="checkbox" id="8D" />
-        </td>
-        <td>
-          8 Clubs <input type="checkbox" id="8C" />
-        </td>
-        <td>
-          8 Hearts <input type="checkbox" id="8H" />
-        </td>
-      </tr>
-      <tr>
-        <td>
-          9 Spades <input type="checkbox" id="9S" />
-        </td>
-        <td>
-          9 Diamonds <input type="checkbox" id="9D" />
-        </td>
-        <td>
-          9 Clubs <input type="checkbox" id="9C" />
-        </td>
-        <td>
-          9 Hearts <input type="checkbox" id="9H" />
-        </td>
-      </tr>
-      <tr>
-        <td>
-          10 Spades <input type="checkbox" id="10S" />
-        </td>
-        <td>
-          10 Diamonds <input type="checkbox" id="10D" />
-        </td>
-        <td>
-          10 Clubs <input type="checkbox" id="10C" />
-        </td>
-        <td>
-          10 Hearts <input type="checkbox" id="10H" />
-        </td>
-      </tr>
-      <tr class="faceCard">
-        <td>
-          Jack Spades <input type="checkbox" id="JS" />
-        </td>
-        <td>
-          Jack Diamonds <input type="checkbox" id="JD" />
-        </td>
-        <td>
-          Jack Clubs <input type="checkbox" id="JC" />
-        </td>
-        <td>
-          Jack Hearts <input type="checkbox" id="JH" />
-        </td>
-      </tr>
-      <tr class="faceCard">
-        <td>
-          Queen Spades <input type="checkbox" id="QS" />
-        </td>
-        <td>
-          Queen Diamonds <input type="checkbox" id="QD" />
-        </td>
-        <td>
-          Queen Clubs <input type="checkbox" id="QC" />
-        </td>
-        <td>
-          Queen Hearts <input type="checkbox" id="QH" />
-        </td>
-      </tr>
-      <tr class="faceCard">
-        <td>
-          King Spades <input type="checkbox" id="KS" />
-        </td>
-        <td>
-          King Diamonds <input type="checkbox" id="KD" />
-        </td>
-        <td>
-          King Clubs <input type="checkbox" id="KC" />
-        </td>
-        <td>
-          King Hearts <input type="checkbox" id="KH" />
-        </td>
-      </tr>
-      <tr class="faceCard">
-        <td>
-          Ace Spades <input type="checkbox" id="AS" />
-        </td>
-        <td>
-          Ace Diamonds <input type="checkbox" id="AD" />
-        </td>
-        <td>
-          Ace Clubs <input type="checkbox" id="AC" />
-        </td>
-        <td>
-          Ace Hearts <input type="checkbox" id="AH" />
-        </td>
-      </tr>
-
-    </table>
-    <div id="cardInputField">
-    </div>
+    <p id="result">
+    </p>
   </div>
 </body>
 </html>
